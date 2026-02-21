@@ -1,6 +1,7 @@
 # Carrinho-de-Compras
 
 🛒 Carrinho de Compras Dinâmico (Vanilla JS)
+
 Sobre o Projeto
 Este é um projeto prático desenvolvido para treinar lógica de programação, manipulação do DOM e gerenciamento de estado usando JavaScript puro (Vanilla JS). A aplicação simula um carrinho de compras simples e direto, onde o usuário pode gerenciar seus itens e ver o impacto financeiro em tempo real.
 
