@@ -7,12 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="text" id="nomeProduto" placeholder="Nome">
-    <input type="number" id="precoProduto" placeholder="Preço">
-    <button id="adicionarProduto" onclick="adicionarProduto()">Adicionar Produto</button>
+    <main class="container">
+        <h2>🛒Meu Carrinho</h2>
 
-    <ul id="listaProdutos"></ul>
-    <h2 id="valorTotal"></h2>
+    <div class="inputs">
+     <input type="text" id="nomeProduto" placeholder="Nome">
+     <input type="number" id="precoProduto" placeholder="Preço R$ ">
+     <button id="adicionarProduto" onclick="adicionarProduto()">Adicionar Produto</button>
+    </div>
+
+     <ul id="listaProdutos"></ul>
+     <h2 id="valorTotal">Total R$ 0,00</h2>
+
+    </main>
     
     <script src="index.js"></script>
 </body>
